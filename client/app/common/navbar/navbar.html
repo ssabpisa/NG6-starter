@@ -1,8 +1,39 @@
-<nav class="navbar">
-  <div class="logo">
-    <h1><a ui-sref="home">{{ $ctrl.name }}</a></h1>
-  </div>
-  <div class="nav-links">
-    <span><a ui-sref="about">about</a></span>
-  </div>
-</nav>
+<div class="container">
+    <div role="navigation" class="nav navbar sukhumvit navbar-simple">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a href="/" class="navbar-brand">
+                    <img src="/static/logo.png" width="120" />
+                </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li role="presentation"><a href="#">NEW ARRIVALS</a></li>
+                <li role="presentation"><a href="#">CLOTHING</a></li>
+                <li role="presentation"><a href="#">ACCESSORIES</a></li>
+                <li role="presentation"><a href="#">BRANDS</a></li>
+
+                <li>
+                    <a href="/signup">SIGN UP</a>
+                </li>
+                <li>
+                    <a href="/login">SIGN IN</a>
+                </li>
+                <li>
+                    <a href="/cart">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        <span class="label label-default">0</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>

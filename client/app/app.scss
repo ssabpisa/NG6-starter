@@ -27,8 +27,20 @@ a {
     }
 }
 
-input[type=text] {
+input[type=text].form-control {
     border-width: 1px;
     border-radius: 0px;
-    outline-style: none;
+    outline: none;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: $primaryColor;
+}
+
+h1,
+h2 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100
 }
